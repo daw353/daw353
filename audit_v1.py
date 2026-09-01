@@ -662,7 +662,7 @@ def main():
             "universe_rule": f"30일 중위 일거래대금 순위 {RANK_MIN}~{RANK_MAX} (1-indexed, 양끝 포함)",
             "universe_n_actual": len(uni),
             "quote_ccy": "KRW" if a.venue=="upbit" else "USDT",
-            "survivorship": SURVIVORSHIP[a.venue],
+            "survivorship": SURVIVORSHIP[src],
             "trigger_A_caveat": ("업비트 현물에는 청산이 없음 — A는 가격/거래대금 프록시일 뿐 "
                                  "청산 캐스케이드 대리변수로 해석 불가"
                                  if a.venue=="upbit" else
