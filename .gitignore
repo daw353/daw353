@@ -1,0 +1,5 @@
+# 감사 산출물 / 캐시
+audit_out/
+universe.json
+__pycache__/
+*.pyc
