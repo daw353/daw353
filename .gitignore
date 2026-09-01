@@ -3,3 +3,6 @@ audit_out/
 universe.json
 __pycache__/
 *.pyc
+vision_cache/
+universe_*.json
+logs/
