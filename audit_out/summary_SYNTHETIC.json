@@ -1,0 +1,53 @@
+{
+  "label": "SYNTHETIC",
+  "symbols": 30,
+  "days_covered": 16,
+  "window_utc": [
+    "2026-08-17T21:39:29.881000+00:00",
+    "2026-09-01T21:24:31.917000+00:00"
+  ],
+  "total_events": {
+    "A": 170,
+    "B": 91
+  },
+  "per_day": {
+    "A": {
+      "mean": 10.62,
+      "median_activeday": 11,
+      "p90_activeday": 16,
+      "max_day": 17
+    },
+    "B": {
+      "mean": 5.69,
+      "median_activeday": 6,
+      "p90_activeday": 8,
+      "max_day": 9
+    },
+    "A+B": {
+      "mean": 16.31,
+      "median_activeday": 17,
+      "p90_activeday": 23,
+      "max_day": 23
+    }
+  },
+  "zero_streak_days": {
+    "A": 1,
+    "B": 1
+  },
+  "share_days_with_any_signal": 0.94,
+  "monthly_A_counts": {
+    "2026-08": 160,
+    "2026-09": 10
+  },
+  "F5_check(A_month<10)": [],
+  "F5_partial_months_excluded": [
+    "2026-08",
+    "2026-09"
+  ],
+  "max_simultaneous_same_bar": 1,
+  "note": "수익률은 계산하지 않음(확증 예산 미소모).",
+  "venue": "synthetic",
+  "source": "synthetic",
+  "survivorship": "해당 없음(합성 데이터).",
+  "EVIDENCE": "NO — 자가점검 전용. 판정 사용 금지."
+}
