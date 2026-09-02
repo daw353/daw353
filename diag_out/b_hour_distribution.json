@@ -126,10 +126,12 @@
     "B_peak_kst_hour": 22
   },
   "cost_sample_kst_hours_covered": [
+    2,
     6,
     7,
     9,
-    11
+    11,
+    18
   ],
   "cost_sample_gap_vs_event_peak": "이벤트 피크 시간대가 비용 샘플에 포함됨"
 }

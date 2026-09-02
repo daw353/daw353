@@ -17,11 +17,11 @@
       "p90": 1.942
     },
     "roundtrip_cost_in_sigma15": {
-      "p10": 0.38,
-      "p50": 0.75,
+      "p10": 0.4,
+      "p50": 0.76,
       "p90": 1.49,
-      "share_cost_gt_1sigma": 0.288,
-      "share_cost_gt_2sigma": 0.029
+      "share_cost_gt_1sigma": 0.292,
+      "share_cost_gt_2sigma": 0.027
     },
     "tp_sl_grid_pct_at_median_sigma15": {
       "1sigma": 0.575,
@@ -43,10 +43,10 @@
       "p90": 1.991
     },
     "roundtrip_cost_in_sigma15": {
-      "p10": 0.38,
-      "p50": 0.76,
+      "p10": 0.4,
+      "p50": 0.77,
       "p90": 1.57,
-      "share_cost_gt_1sigma": 0.302,
+      "share_cost_gt_1sigma": 0.31,
       "share_cost_gt_2sigma": 0.034
     },
     "tp_sl_grid_pct_at_median_sigma15": {
