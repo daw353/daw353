@@ -1,0 +1,150 @@
+{
+  "diagnostic": "(a) 확장 — 바이낸스 측을 아카이브 전체에서 페어링한 전이 일치율",
+  "no_forward_returns": "이벤트 이후 구간 미조회 — 모든 통계는 이벤트 봉 직전까지의 후행 창.",
+  "SCOPE_NOTE": "바이낸스 심볼 집합이 동결 유니버스(순위 20~150) 밖이다. 진단 전용, 사전등록 감사 결과가 아님.",
+  "overlap_window_utc": [
+    "2026-04-05T11:45:00+00:00",
+    "2026-09-01T21:00:00+00:00"
+  ],
+  "upbit_universe": 131,
+  "assets_paired": 119,
+  "assets_unpaired": [
+    "KRW-BLEND",
+    "KRW-BORA",
+    "KRW-CRO",
+    "KRW-DATA",
+    "KRW-DRV",
+    "KRW-ELF",
+    "KRW-GEOD",
+    "KRW-MET2",
+    "KRW-META2",
+    "KRW-QUID",
+    "KRW-TRAC",
+    "KRW-UP2"
+  ],
+  "binance_symbols": 119,
+  "binance_A_events": 4333,
+  "upbit_A_events_total": 3682,
+  "upbit_A_events_in_scope": 3471,
+  "coverage_of_upbit_A": 0.943,
+  "match_rate_exact_bar": 0.4394,
+  "match_rate_pm1_bar": 0.4803,
+  "chance_baseline_exact": 0.0027,
+  "lift_over_chance_exact": 162.44,
+  "lag_histogram_bars": {
+    "-4": 33,
+    "-3": 48,
+    "-2": 34,
+    "-1": 88,
+    "0": 1525,
+    "1": 54,
+    "2": 27,
+    "3": 43,
+    "4": 27,
+    "no_match_within_4bars": 1592
+  },
+  "lag_direction": {
+    "binance_leads": 203,
+    "upbit_leads": 151,
+    "same_bar": 1525
+  },
+  "match_rate_by_kst_hour": {
+    "0": {
+      "n": 129,
+      "pm1_rate": 0.566
+    },
+    "1": {
+      "n": 69,
+      "pm1_rate": 0.507
+    },
+    "2": {
+      "n": 52,
+      "pm1_rate": 0.577
+    },
+    "3": {
+      "n": 51,
+      "pm1_rate": 0.529
+    },
+    "4": {
+      "n": 35,
+      "pm1_rate": 0.486
+    },
+    "5": {
+      "n": 36,
+      "pm1_rate": 0.556
+    },
+    "6": {
+      "n": 79,
+      "pm1_rate": 0.506
+    },
+    "7": {
+      "n": 90,
+      "pm1_rate": 0.389
+    },
+    "8": {
+      "n": 96,
+      "pm1_rate": 0.646
+    },
+    "9": {
+      "n": 348,
+      "pm1_rate": 0.391
+    },
+    "10": {
+      "n": 234,
+      "pm1_rate": 0.368
+    },
+    "11": {
+      "n": 156,
+      "pm1_rate": 0.41
+    },
+    "12": {
+      "n": 138,
+      "pm1_rate": 0.399
+    },
+    "13": {
+      "n": 133,
+      "pm1_rate": 0.421
+    },
+    "14": {
+      "n": 203,
+      "pm1_rate": 0.557
+    },
+    "15": {
+      "n": 159,
+      "pm1_rate": 0.503
+    },
+    "16": {
+      "n": 174,
+      "pm1_rate": 0.552
+    },
+    "17": {
+      "n": 156,
+      "pm1_rate": 0.474
+    },
+    "18": {
+      "n": 166,
+      "pm1_rate": 0.458
+    },
+    "19": {
+      "n": 177,
+      "pm1_rate": 0.48
+    },
+    "20": {
+      "n": 129,
+      "pm1_rate": 0.45
+    },
+    "21": {
+      "n": 191,
+      "pm1_rate": 0.435
+    },
+    "22": {
+      "n": 253,
+      "pm1_rate": 0.573
+    },
+    "23": {
+      "n": 217,
+      "pm1_rate": 0.558
+    }
+  },
+  "per_symbol_csv": "diag_out/a2_binance_A_events.csv"
+}
