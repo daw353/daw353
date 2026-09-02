@@ -1,0 +1,65 @@
+{
+  "label": "upbit_upbit_180d",
+  "symbols": 131,
+  "days_covered": 152,
+  "window_utc": [
+    "2026-04-04T22:00:00+00:00",
+    "2026-09-02T00:15:00+00:00"
+  ],
+  "total_events": {
+    "A": 3682,
+    "B": 5063
+  },
+  "per_day": {
+    "A": {
+      "mean": 24.22,
+      "median_activeday": 21,
+      "p90_activeday": 40,
+      "max_day": 155
+    },
+    "B": {
+      "mean": 33.31,
+      "median_activeday": 30,
+      "p90_activeday": 49,
+      "max_day": 176
+    },
+    "A+B": {
+      "mean": 57.53,
+      "median_activeday": 51,
+      "p90_activeday": 89,
+      "max_day": 314
+    }
+  },
+  "zero_streak_days": {
+    "A": 1,
+    "B": 1
+  },
+  "share_days_with_any_signal": 0.99,
+  "monthly_A_counts": {
+    "2026-04": 611,
+    "2026-05": 730,
+    "2026-06": 711,
+    "2026-07": 639,
+    "2026-08": 964,
+    "2026-09": 27
+  },
+  "F5_check(A_month<10)": [],
+  "F5_partial_months_excluded": [
+    "2026-04",
+    "2026-09"
+  ],
+  "max_simultaneous_same_bar": 69,
+  "note": "수익률은 계산하지 않음(확증 예산 미소모).",
+  "venue": "upbit",
+  "source": "upbit",
+  "universe_rule": "30일 중위 일거래대금 순위 20~150 (1-indexed, 양끝 포함)",
+  "universe_n_actual": 131,
+  "quote_ccy": "KRW",
+  "survivorship": "생존편향 있음: /v1/market/all 은 현재 상장 마켓만 반환한다. 감사 구간 중 상장폐지된 마켓은 유니버스에서 자동 누락되며, 폐지 직전의 극단 변동(트리거가 가장 많이 발화했을 구간)이 통째로 빠진다. 발화 빈도는 상향이 아니라 하향 편의로 볼 수 없다 — 방향은 불명이며 이 감사로는 보정 불가.",
+  "trigger_A_caveat": "업비트 현물에는 청산이 없음 — A는 가격/거래대금 프록시일 뿐 청산 캐스케이드 대리변수로 해석 불가",
+  "EVIDENCE": "정본",
+  "bars_total": 2070302,
+  "filled_bar_ratio": 0.06703,
+  "filled_bars": 138763,
+  "symbols_failed": []
+}
