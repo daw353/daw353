@@ -49,7 +49,11 @@
     "effective_N_cluster_basis": 2690,
     "power_overstatement_factor": 1.92,
     "V2_btc_filter": {
-      "error": "vision/BTCUSDT 봉 캐시 없음 — bar_cache.py 먼저 실행"
+      "btc_ref": "BTCUSDT",
+      "clusters_with_abs_btc_ret_gt_1pct": 34,
+      "cluster_removal_rate": 0.0126,
+      "event_removal_rate": 0.0957,
+      "note": "V2가 |BTC 15분 수익률|>1% 봉을 제외할 경우의 예상 제거율"
     }
   }
 }
