@@ -1,0 +1,55 @@
+{
+  "diagnostic": "(c) 군집 재집계 — 동일 15분봉 A-이벤트 = 1군집",
+  "no_forward_returns": "이벤트 이후 구간 미조회 — 모든 통계는 이벤트 봉 직전까지의 후행 창.",
+  "why": "유효 표본은 발화 건수가 아니라 군집 수. 건수 기준 검정력은 과대평가.",
+  "upbit": {
+    "A_events": 3682,
+    "clusters": 2520,
+    "events_per_cluster_mean": 1.46,
+    "cluster_size": {
+      "p50": 1,
+      "p90": 2,
+      "max": 69,
+      "share_size1": 0.809,
+      "share_size_ge10": 0.01
+    },
+    "clusters_per_day": {
+      "mean": 16.8,
+      "p90": 25,
+      "max": 43
+    },
+    "effective_N_event_basis": 3682,
+    "effective_N_cluster_basis": 2520,
+    "power_overstatement_factor": 1.46,
+    "V2_btc_filter": {
+      "btc_ref": "KRW-BTC",
+      "clusters_with_abs_btc_ret_gt_1pct": 14,
+      "cluster_removal_rate": 0.0056,
+      "event_removal_rate": 0.0494,
+      "note": "V2가 |BTC 15분 수익률|>1% 봉을 제외할 경우의 예상 제거율"
+    }
+  },
+  "binance_vision": {
+    "A_events": 5164,
+    "clusters": 2690,
+    "events_per_cluster_mean": 1.92,
+    "cluster_size": {
+      "p50": 1,
+      "p90": 3,
+      "max": 50,
+      "share_size1": 0.757,
+      "share_size_ge10": 0.025
+    },
+    "clusters_per_day": {
+      "mean": 18.05,
+      "p90": 27,
+      "max": 41
+    },
+    "effective_N_event_basis": 5164,
+    "effective_N_cluster_basis": 2690,
+    "power_overstatement_factor": 1.92,
+    "V2_btc_filter": {
+      "error": "vision/BTCUSDT 봉 캐시 없음 — bar_cache.py 먼저 실행"
+    }
+  }
+}

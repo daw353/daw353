@@ -5,3 +5,4 @@ __pycache__/
 vision_cache/
 universe_*.json
 logs/
+bar_cache/

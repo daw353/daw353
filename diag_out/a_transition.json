@@ -1,0 +1,239 @@
+{
+  "diagnostic": "(a) 전이 가설 — 업비트 A ↔ 바이낸스 A 동일자산·동일봉 일치율",
+  "no_forward_returns": "이벤트 이후 구간 미조회 — 모든 통계는 이벤트 봉 직전까지의 후행 창.",
+  "overlap_window_utc": [
+    "2026-04-05T00:15:00+00:00",
+    "2026-08-31T22:00:00+00:00"
+  ],
+  "universe_upbit": 131,
+  "universe_binance": 131,
+  "assets_paired": 44,
+  "assets_paired_with_upbit_A": 43,
+  "assets_unpaired": [
+    "KRW-0G",
+    "KRW-AI",
+    "KRW-AKT",
+    "KRW-ATH",
+    "KRW-AVNT",
+    "KRW-AWE",
+    "KRW-AXS",
+    "KRW-B3",
+    "KRW-BARD",
+    "KRW-BERA",
+    "KRW-BIGTIME",
+    "KRW-BIO",
+    "KRW-BIRB",
+    "KRW-BLEND",
+    "KRW-BORA",
+    "KRW-BSV",
+    "KRW-CC",
+    "KRW-CFG",
+    "KRW-CHIP",
+    "KRW-COW",
+    "KRW-CRO",
+    "KRW-DATA",
+    "KRW-DEEP",
+    "KRW-DOOD",
+    "KRW-DRV",
+    "KRW-ELF",
+    "KRW-ELSA",
+    "KRW-ENS",
+    "KRW-ENSO",
+    "KRW-ERA",
+    "KRW-ESP",
+    "KRW-FF",
+    "KRW-FLOCK",
+    "KRW-G",
+    "KRW-GAS",
+    "KRW-GEOD",
+    "KRW-HOLO",
+    "KRW-HYPER",
+    "KRW-ID",
+    "KRW-IN",
+    "KRW-IRYS",
+    "KRW-KAT",
+    "KRW-LA",
+    "KRW-LAYER",
+    "KRW-LSK",
+    "KRW-MANTRA",
+    "KRW-ME",
+    "KRW-MEGA",
+    "KRW-MET2",
+    "KRW-META2",
+    "KRW-MIRA",
+    "KRW-MMT",
+    "KRW-MON",
+    "KRW-MOVE",
+    "KRW-ONT",
+    "KRW-OPEN",
+    "KRW-OPG",
+    "KRW-PIEVERSE",
+    "KRW-PLUME",
+    "KRW-POL",
+    "KRW-PRL",
+    "KRW-PYTH",
+    "KRW-QUID",
+    "KRW-RED",
+    "KRW-RVN",
+    "KRW-SAHARA",
+    "KRW-SAND",
+    "KRW-SIGN",
+    "KRW-SKR",
+    "KRW-SNT",
+    "KRW-SOON",
+    "KRW-SOPH",
+    "KRW-SPK",
+    "KRW-STEEM",
+    "KRW-STORJ",
+    "KRW-STX",
+    "KRW-TRAC",
+    "KRW-TREE",
+    "KRW-UP2",
+    "KRW-VANA",
+    "KRW-W",
+    "KRW-WAVES",
+    "KRW-XEC",
+    "KRW-ZAMA",
+    "KRW-ZIL",
+    "KRW-ZKP",
+    "KRW-ZORA"
+  ],
+  "upbit_A_events_in_scope": 1364,
+  "match_rate_exact_bar": 0.4465,
+  "match_rate_pm1_bar": 0.489,
+  "chance_baseline_exact": 0.0034,
+  "chance_baseline_pm1": 0.0101,
+  "lift_over_chance_exact": 132.67,
+  "lift_over_chance_pm1": 48.38,
+  "reverse_binance_to_upbit": {
+    "n": 1960,
+    "exact": 0.3107,
+    "pm1": 0.3403
+  },
+  "per_asset_pm1_rate_histogram": {
+    "0.0": 1,
+    "0.1": 1,
+    "0.3": 3,
+    "0.4": 11,
+    "0.5": 11,
+    "0.6": 11,
+    "0.7": 3,
+    "0.8": 2
+  },
+  "match_rate_by_kst_hour": {
+    "0": {
+      "n": 62,
+      "pm1_rate": 0.597
+    },
+    "1": {
+      "n": 33,
+      "pm1_rate": 0.485
+    },
+    "2": {
+      "n": 26,
+      "pm1_rate": 0.615
+    },
+    "3": {
+      "n": 26,
+      "pm1_rate": 0.538
+    },
+    "4": {
+      "n": 15,
+      "pm1_rate": 0.4
+    },
+    "5": {
+      "n": 16,
+      "pm1_rate": 0.375
+    },
+    "6": {
+      "n": 38,
+      "pm1_rate": 0.5
+    },
+    "7": {
+      "n": 53,
+      "pm1_rate": 0.358
+    },
+    "8": {
+      "n": 49,
+      "pm1_rate": 0.694
+    },
+    "9": {
+      "n": 67,
+      "pm1_rate": 0.194
+    },
+    "10": {
+      "n": 74,
+      "pm1_rate": 0.432
+    },
+    "11": {
+      "n": 60,
+      "pm1_rate": 0.383
+    },
+    "12": {
+      "n": 56,
+      "pm1_rate": 0.411
+    },
+    "13": {
+      "n": 49,
+      "pm1_rate": 0.306
+    },
+    "14": {
+      "n": 73,
+      "pm1_rate": 0.589
+    },
+    "15": {
+      "n": 62,
+      "pm1_rate": 0.532
+    },
+    "16": {
+      "n": 69,
+      "pm1_rate": 0.565
+    },
+    "17": {
+      "n": 48,
+      "pm1_rate": 0.396
+    },
+    "18": {
+      "n": 67,
+      "pm1_rate": 0.552
+    },
+    "19": {
+      "n": 75,
+      "pm1_rate": 0.493
+    },
+    "20": {
+      "n": 47,
+      "pm1_rate": 0.383
+    },
+    "21": {
+      "n": 62,
+      "pm1_rate": 0.387
+    },
+    "22": {
+      "n": 110,
+      "pm1_rate": 0.645
+    },
+    "23": {
+      "n": 127,
+      "pm1_rate": 0.575
+    }
+  },
+  "lag_histogram_bars": {
+    "-4": 9,
+    "-3": 25,
+    "-2": 12,
+    "-1": 39,
+    "0": 609,
+    "1": 19,
+    "2": 5,
+    "3": 14,
+    "4": 11,
+    "no_match_within_4bars": 621
+  },
+  "lag_direction": {
+    "binance_leads": 85,
+    "upbit_leads": 49,
+    "same_bar": 609
+  },
+  "per_asset_csv": "diag_out/a_transition_by_asset.csv"
+}
