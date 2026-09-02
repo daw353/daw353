@@ -1,0 +1,26 @@
+{
+  "diagnostic": "(d) 결측봉 민감도 — 임계값 창에서 보정봉 제외 후 재집계",
+  "no_forward_returns": "이벤트 이후 구간 미조회 — 모든 통계는 이벤트 봉 직전까지의 후행 창.",
+  "venue": "upbit",
+  "symbols": 131,
+  "symbols_missing_cache": [],
+  "baseline_events": {
+    "A": 3687,
+    "B": 5083
+  },
+  "real_only_threshold_events": {
+    "A": 3435,
+    "B": 4872
+  },
+  "change_rate": {
+    "A": -0.0683,
+    "B": -0.0415
+  },
+  "high_fill_symbols_ge10pct": 27,
+  "high_fill_change_rate": {
+    "A": -0.1662,
+    "B": -0.0923
+  },
+  "interpretation": "보정봉은 vol=0·ret=0 이므로 포함 시 임계값(P99·평균·σ)을 낮춘다. 변화율이 크면 발화 건수의 상당 부분이 보정 인공물이라는 뜻.",
+  "per_symbol_csv": "diag_out/d_fill_sensitivity_by_symbol.csv"
+}

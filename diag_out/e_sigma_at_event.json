@@ -1,0 +1,59 @@
+{
+  "diagnostic": "(e) 이벤트 시점 σ15·σ60 실측 분포 → TP/SL·비용 산수 실측치 교체",
+  "no_forward_returns": "이벤트 이후 구간 미조회 — 모든 통계는 이벤트 봉 직전까지의 후행 창.",
+  "venue": "upbit",
+  "sigma_definition": "σ15 = 후행 7일(672봉) 15분 수익률 표준편차, σ60 = 같은 창의 1시간 종가 168점 수익률 표준편차",
+  "PROXY_WARNING": "이 σ는 이벤트 '직전'까지의 실측치다. 진입 이후 실현 σ는 확증 예산이라 조회하지 않았다. TP/SL 산수에 쓰는 순간 '후행 σ ≈ 선행 σ' 가정을 얹는 것이며, 그 가정은 여기서 검증되지 않았다.",
+  "A": {
+    "n": 3682,
+    "sigma15_pct": {
+      "p10": 0.312,
+      "p50": 0.575,
+      "p90": 1.03
+    },
+    "sigma60_pct": {
+      "p10": 0.555,
+      "p50": 0.968,
+      "p90": 1.942
+    },
+    "roundtrip_cost_in_sigma15": {
+      "p10": 0.38,
+      "p50": 0.75,
+      "p90": 1.49,
+      "share_cost_gt_1sigma": 0.288,
+      "share_cost_gt_2sigma": 0.029
+    },
+    "tp_sl_grid_pct_at_median_sigma15": {
+      "1sigma": 0.575,
+      "1.5sigma": 0.863,
+      "2sigma": 1.15,
+      "3sigma": 1.725
+    }
+  },
+  "B": {
+    "n": 5063,
+    "sigma15_pct": {
+      "p10": 0.293,
+      "p50": 0.574,
+      "p90": 1.046
+    },
+    "sigma60_pct": {
+      "p10": 0.535,
+      "p50": 0.971,
+      "p90": 1.991
+    },
+    "roundtrip_cost_in_sigma15": {
+      "p10": 0.38,
+      "p50": 0.76,
+      "p90": 1.57,
+      "share_cost_gt_1sigma": 0.302,
+      "share_cost_gt_2sigma": 0.034
+    },
+    "tp_sl_grid_pct_at_median_sigma15": {
+      "1sigma": 0.574,
+      "1.5sigma": 0.86,
+      "2sigma": 1.147,
+      "3sigma": 1.721
+    }
+  }
+}
